@@ -1,6 +1,6 @@
 # Outlier Detection for a 2D Feature Space in Python
 
-This project contains all files related to the Medium article "Outlier Detection for a 2D Feature Space in Python: How to detect outliers using plotting and clustering techniques to analyze the dependency of two features". 
+This project contains all files related to the Medium article ["Outlier Detection for a 2D Feature Space in Python: How to detect outliers using plotting and clustering techniques to analyze the dependency of two features"](https://towardsdatascience.com/outlier-detection-python-cd22e6a12098). 
 
 ## Motivation
 This project is showing some basics steps in how to visualize and detect outliers in a two-dimensional feature space, meaning a dependency between two features.
