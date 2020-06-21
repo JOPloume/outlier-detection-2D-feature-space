@@ -6,10 +6,10 @@ from sklearn.cluster import DBSCAN
 
 # Reading in 2D Feature Space
 feature_space = pd.read_csv("../datasets/wine-data.csv", header=None, sep=",")
-data = feature_space.iloc[:, 0:1].values
+data = feature_space.iloc[:, 0:2].values
 
 # DBSCAN model with parameters
-model = DBSCAN(eps=0.2, min_samples=19).fit(data)
+model = DBSCAN(eps=0.8, min_samples=10).fit(data)
 
 # PLOTTING
 # NumPy function to create array from tabular dataset
